@@ -1,6 +1,7 @@
 <!-- file is called index, but think of it as a show page -->
 
-{{title}}
+<h3>{{title}}</h3>
 {{body}}
 <br>
 {{#link-to 'post.edit' this}}Edit Post{{/link-to}}
+<button {{action 'delete' this}}>Delete Post</button>
