@@ -1,3 +1,8 @@
 html, body {
   margin: 20px;
 }
+
+.container {
+  max-width:960px;
+  margin:0 auto;
+}

@@ -1,0 +1,12 @@
+{{outlet}}
+
+
+{{#each post in model}}
+{{post.title}}
+<br><br>
+{{post.body}}
+{{#link-to 'post' post}}Edit Post{{/link-to}}
+<br><br>
+{{/each}}
+
+{{#link-to 'posts.new'}}New Post{{/link-to}}
